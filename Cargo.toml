@@ -1,0 +1,14 @@
+[package]
+name = "que"
+version = "0.1.0"
+authors = ["Joshua Barretto <joshua.s.barretto@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+debug = true
+
+[dependencies]
+allocator_api = "0.6"
+arc-swap = "0.4"
